@@ -1,0 +1,114 @@
+{
+  "translation": {
+    "header": {
+      "title": "<CarlosGodoi />",
+      "nav-initial": "Home",
+      "nav-about": "About",
+      "nav-projects": "Projects",
+      "nav-stack": "Stack",
+      "nav-contact": "Contact"
+    },
+    "section-hero": {
+      "span-text": "Available for new projects",
+      "title": "Developer",
+      "subtitle": "Full Stack",
+      "text-apresentation": "Creating exceptional digital experiences with clean code and modern design. Specialized in React, Next.js, and Node.js.",
+      "button-contact": "Get in Touch",
+      "button-projects": "View Projects",
+      "button-CV": "Download CV"
+    },
+    "section-about": {
+      "title": "ABOUT ME",
+      "subtitle": "Turning ideas into digital reality",
+      "paragraph-1": "I am a Front-end Developer with over 3 years of experience building modern, scalable, and product-oriented web applications. Throughout my career, I have contributed to the development of medium and high-complexity systems for companies in the education, healthcare, and technology sectors, primarily using React, Next.js, TypeScript, and React Native. I have experience creating high-performance user interfaces, component-based architectures, API integrations, automated testing, and software architecture best practices, always focused on delivering solutions that generate real value for users and businesses.",
+      "paragraph-2": "I believe technology should be used to simplify processes and solve problems efficiently. For this reason, I focus on code quality, user experience, and team collaboration, actively participating in code reviews, technical discussions, and continuous product improvement. In addition to my professional experience, I develop personal projects that allow me to explore new technologies and continuously enhance my skills, keeping up to date with trends and best practices in the Front-end ecosystem.",
+      "years-experience": "3+",
+      "years-text": "Years of Experience",
+      "number-projects": "10+",
+      "projects-text": "Projects Delivered",
+      "cards": {
+        "card-1": {
+          "clean-code": "Clean Code",
+          "clean-code-description": "I write readable, testable, and maintainable code."
+        },
+        "card-2": {
+          "performance": "Performance",
+          "performance-description": "Constant optimization to deliver the best user experience."
+        },
+        "card-3": {
+          "innovation": "Innovation",
+          "innovation-description": "Always up to date with the latest technologies in the market."
+        },
+        "card-4": {
+          "collaboration": "Collaboration",
+          "collaboration-description": "Teamwork and clear communication with stakeholders."
+        }
+      }
+    },
+    "section-projects": {
+      "title": "PROJECTS",
+      "subtitle": "Featured Work",
+      "description": "A selection of my most recent and relevant projects, showcasing my skills across different technologies and business contexts.",
+      "link-live-project": "View Project",
+      "link-github-project": "Source Code",
+      "card-1": {
+        "title": "AgendaMed",
+        "description": "A complete appointment scheduling and management platform for medical clinics. This project was developed with the goal of simplifying appointment scheduling and consultation management, providing better control and organization for healthcare facilities. In addition to appointment scheduling, the system allows the registration of doctors, patients, and medical specialties. It also features a dashboard with charts and reports on scheduled and canceled appointments, enabling more effective monitoring and management. Note: If you would like to test the application, use the following credentials: email: operator@operator.com and password: Operator@123",
+        "tecnologies": [
+          "React.js",
+          "TypeScript",
+          "Vite",
+          "Shadcn UI",
+          "Tailwind CSS"
+        ]
+      },
+      "card-2": {
+        "title": "Prestige Real Estate",
+        "description": "A property management system for real estate agencies. This project was developed to create a complete ecosystem for property management, where users with a realtor profile can register properties and make them available for sale or rent. The system also includes customer registration through a form accessible from the login page. After registering, customers can browse the platform, view available properties, and contact real estate agents directly. Note: To test the application, you can create a new account or use the following credentials: email: corretor@corretor.com and password: Corretor@123",
+        "tecnologies": ["React.js", "Next.js", "TypeScript", "Tailwind CSS"],
+        "alt-image": "Login page image of the Prestige Real Estate project",
+        "link-live-project": "View Project",
+        "link-github-project": "Source Code"
+      }
+    },
+    "section-stack": {
+      "title": "STACK",
+      "subtitle": "Technologies & Tools",
+      "description": "A collection of tools and technologies I use to build complete, high-quality solutions.",
+      "title-habilitie-1": "Frontend",
+      "title-habilitie-2": "Backend",
+      "title-habilitie-3": "Database",
+      "title-habilitie-4": "Tools"
+    },
+    "section-contact": {
+      "title": "Contact",
+      "subtitle": "Let's Work Together",
+      "description": "Do you have a project in mind or want to discuss an opportunity? Get in touch and let's turn your ideas into reality.",
+      "card-email-title": "Email",
+      "info-email": "edu-godoi@hotmail.com",
+      "card-phone-title": "Phone",
+      "info-phone": "+55 (51) 99721-6453",
+      "card-location-title": "Location",
+      "info-location": "Cachoeirinha - Rio Grande do Sul, Brazil",
+      "CTA-span": "Available for New Projects",
+      "CTA-title": "Ready to Start Your Next Project?",
+      "CTA-description": "Schedule a meeting or contact me directly so we can discuss your idea. It will be a pleasure to collaborate and bring your vision to life. I look forward to hearing from you!",
+      "CTA-button-email": "Send Email",
+      "CTA-text-footer": "Find Me on Social Media"
+    },
+    "chatbot": {
+      "title": "Hello! How can I help you?"
+    },
+    "chat": {
+      "title": "Assistant",
+      "text-apresentation": "I am Devizinhu, a virtual assistant. Ask me anything about Carlos's resume and I'll be happy to help! 😊",
+      "placeholder": "Type your question...",
+      "button-send": "Send"
+    },
+    "footer": {
+      "text-1": "Made with",
+      "text-2": "by",
+      "text-3": "Carlos Eduardo Godoi"
+    }
+  }
+}
