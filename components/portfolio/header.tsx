@@ -2,8 +2,6 @@
 
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 import ImgBR from '@/app/assets/imgBr.jpg';
 import ImgEUA from '@/app/assets/ImgEUA.jpg';
 import { useTranslation } from 'react-i18next';
@@ -83,9 +81,9 @@ export function Header() {
             </div>
           </nav>
 
-          <Button variant="ghost" size="icon" className="md:hidden">
-            {isOpen ? <X className="h5 w-5" /> : <MoboMenu />}
-          </Button>
+          <div className="md:hidden">
+            <MoboMenu />
+          </div>
         </div>
 
         {isOpen && (

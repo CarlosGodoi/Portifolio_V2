@@ -60,13 +60,13 @@ export const ChatWindow = ({ onClose }: { onClose: () => void }) => {
           ✖
         </button>
       </div>
-      <div className="flex-1 p-2 overflow-y-auto space-y-2 text-zinc-800 text-sm bg-zinc-50">
+      <div className="flex-1 p-2 overflow-y-auto space-y-2 text-zinc-900 text-sm bg-zinc-50">
         {messages.map((msg, i) => (
           <div
             key={i}
             className={`p-3 rounded-md ${
               msg.sender === 'user'
-                ? 'bg-cyan-200 self-end text-right'
+                ? 'bg-primary self-end text-right'
                 : 'bg-gray-300 self-start'
             }`}
           >
@@ -80,7 +80,7 @@ export const ChatWindow = ({ onClose }: { onClose: () => void }) => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => e.key === 'Enter' && handleSend()}
-          className="flex-1 h-10 text-zinc-800 text-sm border rounded px-2 py-1"
+          className="flex-1 h-10 text-zinc-800 text-sm border border-primary rounded px-2 py-1"
           placeholder={t('chat.placeholder')}
           disabled={isLoading}
         />
@@ -89,7 +89,7 @@ export const ChatWindow = ({ onClose }: { onClose: () => void }) => {
           className={`px-3 py-1 rounded text-sm ${
             isLoading
               ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
-              : 'bg-primary text-zinc-800 cursor-pointer'
+              : 'bg-primary text-zinc-800 font-semibold cursor-pointer'
           }`}
           disabled={isLoading}
         >

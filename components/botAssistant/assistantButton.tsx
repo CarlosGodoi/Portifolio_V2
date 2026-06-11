@@ -15,12 +15,13 @@ export const AssistantButton = () => {
       <TooltipProvider>
         <Tooltip>
           <TooltipTrigger asChild>
-            <button className="w-20 h-20 rounded-full bg-white border p-2 shadow-lg cursor-pointer">
+            <button className="relative w-20 h-20 rounded-full bg-white border p-2 shadow-lg cursor-pointer">
               <Image
                 src={Assistant}
                 alt="Assistente"
-                fill
                 className="object-cover w-full h-full rounded-full"
+                fill
+                sizes="(max-width: 768px) 100vw, 33vw"
               />
             </button>
           </TooltipTrigger>

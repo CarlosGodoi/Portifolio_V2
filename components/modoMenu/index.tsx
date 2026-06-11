@@ -1,15 +1,11 @@
 import {
   AppWindow,
   Contact,
-  CreditCardIcon,
   FileUser,
   FolderBookmark,
   Languages,
   LayersPlus,
-  LogOutIcon,
   Menu,
-  SettingsIcon,
-  UserIcon,
 } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
@@ -22,13 +18,21 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { useTranslation } from 'react-i18next';
 import '../../utils/translate/i18n';
+import { useEffect, useState } from 'react';
 
 export function MoboMenu() {
   const { t, i18n } = useTranslation();
+  const [mounted, setMounted] = useState(false);
 
   const handleChangeLanguage = (lang: string) => {
     i18n.changeLanguage(lang);
   };
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null;
 
   return (
     <DropdownMenu>

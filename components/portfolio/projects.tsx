@@ -59,7 +59,7 @@ export function Projects() {
               >
                 <div className="aspect-video bg-secondary/50 relative overflow-hidden">
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-full h-full rounded-xl bg-primary/10 flex items-center justify-center">
+                    <div className="relative w-full h-full rounded-xl bg-primary/10 flex items-center justify-center">
                       <Image
                         src={project.image}
                         alt={project.title}
