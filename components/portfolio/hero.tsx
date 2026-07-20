@@ -56,7 +56,7 @@ export function Hero() {
                 <a href="#projects">{t('section-hero.button-projects')}</a>
               </Button>
               <Button asChild variant="secondary" size="lg" className="gap-2">
-                <a href="/CV - Front-end - Carlos_Eduardo_Godoi.pdf" download>
+                <a href="/Carlos_Godoi_Frontend_Curriculo.pdf" download>
                   <Download className="h-4 w-4" />
                   {t('section-hero.button-CV')}
                 </a>
