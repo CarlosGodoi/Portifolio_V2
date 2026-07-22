@@ -4,7 +4,7 @@ import { ArrowDown, Download, Mail } from 'lucide-react';
 import { SiGithub } from '@icons-pack/react-simple-icons';
 import { LinkedinLogoIcon } from '@/components/portfolio/icons';
 import { Button } from '@/components/ui/button';
-import FotoPerfil from '@/app/assets/foto portifolio.png';
+import FotoPerfil from '@/app/assets/foto_.png';
 import { useTranslation } from 'react-i18next';
 import '../../utils/translate/i18n';
 import { useEffect, useState } from 'react';
