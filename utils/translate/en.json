@@ -73,7 +73,7 @@
 
       "card-3": {
         "title": "LibriX",
-        "description": "A book management platform for libraries and bookstores. This project was developed with the goal of creating an efficient system for inventory management, loan, and return of books. The system also allows the creation of user profiles, where readers can view their loans, history, and book reviews. It also features an AI agent that provides book recommendations to users based on their preferences and reading history.",
+        "description": "A book management platform for libraries. This project was developed with the goal of creating an efficient system for inventory management, loan, and return of books. The system also allows the creation of user profiles, where readers can view their loans, history, and book reviews. It also features an AI agent that provides book recommendations to users based on their preferences and reading history.",
         "tecnologies": [
           "React.js",
           "Next.js",

@@ -77,7 +77,7 @@
 
       "card-3": {
         "title": "LibriX",
-        "description": "Plataforma de gerenciamento de livros para bibliotecas e书店. Este projeto foi desenvolvido com o objetivo de criar um sistema eficiente para administração de inventário, empréstimos e devoluções de livros. O sistema também permite a criação de perfis de usuários, onde os leitores podem visualizar seus empréstimos, histórico e avaliações dos livros. Conta também com um Agente de IA que faz sugestões de livros ao usuário com base em suas preferências e historico de leitura.",
+        "description": "Plataforma de gerenciamento de livros para bibliotecas. Este projeto foi desenvolvido com o objetivo de criar um sistema eficiente para administração de inventário, empréstimos e devoluções de livros. O sistema também permite a criação de perfis de usuários, onde os leitores podem visualizar seus empréstimos, histórico e avaliações dos livros. Conta também com um Agente de IA que faz sugestões de livros ao usuário com base em suas preferências e historico de leitura.",
         "tecnologies": [
           "React.js",
           "Next.js",
