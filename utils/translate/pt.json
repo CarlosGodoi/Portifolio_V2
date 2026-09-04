@@ -1,0 +1,138 @@
+{
+  "translation": {
+    "header": {
+      "title": "<CarlosGodoi />",
+      "nav-initial": "Início",
+      "nav-about": "Sobre",
+      "nav-projects": "Projetos",
+      "nav-stack": "Stack",
+      "nav-contact": "Contato"
+    },
+    "section-hero": {
+      "span-text": "Disponível para novos projetos",
+      "title": "Desenvolvedor",
+      "subtitle": "Full Stack",
+      "text-apresentation": "Criando experiências digitais excepcionais com código limpo e design moderno. Especializado em React, Next.js e Node.js..",
+      "button-contact": "Entre em contato",
+      "button-projects": "Ver projetos",
+      "button-CV": "Baixar CV"
+    },
+
+    "section-about": {
+      "title": "SOBRE MIM",
+      "subtitle": "Transformando ideias em realidade digital",
+      "paragraph-1": "Sou Desenvolvedor Front-end com mais de 3 anos de experiência criando aplicações web modernas, escaláveis e orientadas a produto. Ao longo da minha trajetória, participei do desenvolvimento de sistemas de média e alta complexidade para empresas dos segmentos educacional, saúde e tecnologia, utilizando principalmente React, Next.js, TypeScript e React Native. Tenho experiência na construção de interfaces performáticas, componentização, integração com APIs, testes automatizados e boas práticas de arquitetura de software, sempre buscando entregar soluções que gerem valor real para usuários e negócios.",
+      "paragraph-2": "Acredito que tecnologia deve ser utilizada para simplificar processos e resolver problemas de forma eficiente. Por isso, atuo com foco em qualidade de código, experiência do usuário e colaboração em equipe, participando ativamente de code reviews, discussões técnicas e evolução contínua dos produtos. Além da experiência profissional, desenvolvo projetos próprios que me permitem explorar novas tecnologias e aprimorar constantemente minhas habilidades, mantendo-me atualizado com as tendências e boas práticas do ecossistema Front-end.",
+      "years-experience": "3+",
+      "years-text": "Anos de experiência",
+      "number-projects": "10+",
+      "projects-text": "Projetos entregues",
+      "cards": {
+        "card-1": {
+          "clean-code": "Código Limpo",
+          "clean-code-description": "Escrevo código legível, testável e de fácil manutenção."
+        },
+        "card-2": {
+          "performance": "Performance",
+          "performance-description": "Otimização constante para entregar a melhor experiência."
+        },
+        "card-3": {
+          "innovation": "Inovação",
+          "innovation-description": "Sempre atualizado com as últimas tecnologias do mercado."
+        },
+        "card-4": {
+          "collaboration": "Colaboração",
+          "collaboration-description": "Trabalho em equipe e comunicação clara com stakeholders."
+        }
+      }
+    },
+
+    "section-projects": {
+      "title": "PROJETOS",
+      "subtitle": "Trabalhos em destaque",
+      "description": "Uma seleção dos meus projetos mais recentes e relevantes, demonstrando minhas habilidades em diferentes tecnologias e contextos.",
+      "link-live-project": "Ver projeto",
+      "link-github-project": "Código",
+
+      "card-1": {
+        "title": "AgendaMed",
+        "description": "Plataforma completa de agendamento e gestão de consultas, para clínicas médicas.Este projeto foi desenvolvido,com a idéia de facilitar o agendamento e a gestão das consultas, permitindo um melhor controle e organização para clínicas médicas.Além do agendamento de consultas, o sistema também permite o cadastro de médicos, pacientes e especialidades médicas, o sistema possui um dashboard com gráficos e relatórios das consultas agendadas e canceladas, permitindo assim um melhor controle e gestão das consultas. Obs: Caso você deseje acessar para teste as credenciais de teste são: e-mail: operator@operator.com e senha:Operator@123",
+        "tecnologies": [
+          "React.js",
+          "TypeScript",
+          "Vite",
+          "Shadcn UI",
+          "Tailwind CSS"
+        ]
+      },
+
+      "card-2": {
+        "title": "Prestige Imobiliária",
+        "description": "Sistema para adminstração de imóveis, para imobiliárias.Este projeto foi desenvolvido, com propósito de criar um ecosistema para gestão de imovés, onde um usuário com perfil corretor pode cadastrar imoveis na base, e disponibiliza-los para venda ou locação. O sistema também possui o cadastramento de clientes, através de um link de acesso ao formulário na tela de login, onde o cliente após cadastrar-se, poderá então navegar pelo sistema e visualizar os imoveis disponiveis para venda ou locação, além de poder fazer contato com os corretores da imobiliária. Obs:Caso você deseje acessar para teste, você pode cadastrar um novo usuário ou acessar com e-mail: corretor@corretor.com e senha:Corretor@123",
+        "tecnologies": ["React.js", "Next.js", "TypeScript", "Tailwind CSS"],
+        "alt-image": "Imagem da página de login do projeto Prestige imobiliária",
+        "link-live-project": "Ver projeto",
+        "link-github-project": "Código"
+      },
+
+      "card-3": {
+        "title": "LibriX",
+        "description": "Plataforma de gerenciamento de livros para bibliotecas e书店. Este projeto foi desenvolvido com o objetivo de criar um sistema eficiente para administração de inventário, empréstimos e devoluções de livros. O sistema também permite a criação de perfis de usuários, onde os leitores podem visualizar seus empréstimos, histórico e avaliações dos livros. Conta também com um Agente de IA que faz sugestões de livros ao usuário com base em suas preferências e historico de leitura.",
+        "tecnologies": [
+          "React.js",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Shadcn UI"
+        ],
+        "alt-image": "Imagem da página de login do projeto LibriX",
+        "link-live-project": "Ver projeto",
+        "link-github-project": "Código"
+      }
+    },
+
+    "section-stack": {
+      "title": "STACK",
+      "subtitle": "Tecnologias que domino",
+      "description": "Um conjunto de ferramentas e tecnologias que utilizo para criar soluções completas e de alta qualidade.",
+      "title-habilitie-1": "Frontend",
+      "title-habilitie-2": "Backend",
+      "title-habilitie-3": "Banco de dados",
+      "title-habilitie-4": "Ferramentas"
+    },
+
+    "section-contact": {
+      "title": "Contato",
+      "subtitle": "Vamos trabalhar juntos?",
+      "description": "Tem um projeto em mente ou quer conversar sobre uma oportunidade? Entre em contato e vamos transformar suas ideias em realidade.",
+      "card-email-title": "Email",
+      "info-email": "edu-godoi@hotmail.com",
+      "card-phone-title": "Telefone",
+      "info-phone": "+55 (51) 99721-6453",
+      "card-location-title": "Localização",
+      "info-location": "Cachoeirinha - Rio Grande do Sul, Brasil",
+      "CTA-span": "Disponível para novos projetos",
+      "CTA-title": "Pronto para começar seu próximo projeto?",
+      "CTA-description": "Agende uma conversa ou me chame diretamente para discutirmos sua ideia. Será um prazer colaborar e transformar suas ideias em realidade. Estou ansioso para ouvir de você!",
+      "CTA-button-email": "Enviar email",
+      "CTA-text-footer": "Me encontre nas redes"
+    },
+
+    "chatbot": {
+      "title": "Olá! como posso ajudá-lo?"
+    },
+
+    "chat": {
+      "title": "Assistente",
+      "text-apresentation": "Eu sou Devizinhu assitente virtual, pergunte algo sobre o currículo do Carlos para eu poder ajuda-lo! 😊",
+      "placeholder": "Digite sua pergunta...",
+      "button-send": "Enviar"
+    },
+
+    "footer": {
+      "text-1": "Feito com",
+      "text-2": "por",
+      "text-3": "Carlos Eduardo Godoi"
+    }
+  }
+}
