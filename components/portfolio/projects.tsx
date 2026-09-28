@@ -41,7 +41,7 @@ export function Projects() {
         returnObjects: true,
       }) as string[],
       image: LibriXImg,
-      liveUrl: 'librix-psi.vercel.app',
+      liveUrl: 'https://librix-psi.vercel.app/',
       githubUrl: 'https://github.com/CarlosGodoi/librix_front',
     },
   ];
